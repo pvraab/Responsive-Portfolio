@@ -110,7 +110,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -214,4 +215,45 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* 
+ * Use `980px` because you never want any of the content to be cut off.
+ * Since the desktop layout is about 960px wide, you want the media queries 
+ * to kick in before your content gets cut off.
+ */
+@media only screen and (max-width:980px) {
+
+  /* For desktops */
+  .container {
+    background-color: lightgoldenrodyellow;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+/*
+ * `768px` is about the width of a tablet
+ */
+@media only screen and (max-width:768px) {
+
+  /* For tablets */
+  .container {
+    background-color: lightgreen;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+/* 
+ * `640px` is about the width of a phone in landscape.
+ */
+@media only screen and (max-width:640px) {
+
+  /* For mobile phones: */
+  .container {
+    background-color: lightblue;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+  }
 }
