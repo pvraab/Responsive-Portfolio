@@ -65,7 +65,7 @@ h3 {
 }
 
 #brand {
-  padding-left:100px;
+  padding-left: 100px;
 }
 
 #logo {
@@ -86,7 +86,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
-  padding-right:100px;
+  padding-right: 100px;
 }
 
 nav a {
@@ -233,16 +233,21 @@ input[type=submit] {
 
   /* For desktops */
   .container {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
+
   #masthead {
     /* Remove fixed for media responsive */
     position: static;
   }
+
   #main-container {
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -253,16 +258,20 @@ input[type=submit] {
 
   /* For tablets */
   .container {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     width: 100%;
     /* margin: 10px 10px 10px 10px; */
   }
+
   #main-container {
     margin-top: 20px;
+    padding-top: 30px;
   }
+
   #logo {
     margin-left: 50px;
   }
+
   nav {
     float: left;
     margin-top: 25px;
@@ -276,15 +285,15 @@ input[type=submit] {
 
   /* For mobile phones: */
   .container {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 100%;
     font-size: 16px;
-}
+  }
 
   #main-container {
     margin-top: 50px;
-    padding-top: 150px;
-}
+    padding-top: 30px;
+  }
 
   #logo {
     margin-left: 50px;
